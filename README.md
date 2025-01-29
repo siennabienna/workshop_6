@@ -128,3 +128,8 @@ class Walker {
   }
 }
 ```
+## For future development
+Rain Sounds: Add background rain sounds to make the simulation more immersive.
+Mouse Interaction: Allow users to interact with the particles and raindrops using the mouse. 
+Lighting Effects: Introduce lighting effects to create a more immersive environment. For example, add occasional lightning flashes to simulate a thunderstorm.
+Wind Effect: Simulate wind by adding a directional force that affects the movement of raindrops and walkers.
