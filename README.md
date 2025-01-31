@@ -10,7 +10,7 @@ Website: https://siennabienna.github.io/workshop_6/
 
 # Using RiTa Functions
 
-I followed the workshop tasks video and created my own simple rhyming poem. I started off by finding a free font off Google as an OTF. This allowed me to change the font of the text of the title and the poem. 
+I followed the workshop tasks video and created my own simple rhyming poem. I started off by finding a free font off Google as an TTF. This allowed me to change the font of the text of the title and the poem. 
 
 ```js
 function preload() { 
@@ -18,7 +18,7 @@ font1 = loadFont('BodoniModa-VariableFont_opsz,wght.ttf');
 }
 ```
 
-To acess the Rita library from my code, I added the link that was on the Github to the index.html. Next, I created a simple user input and button so that text could be entered and then confirmed. 
+To acess the Rita library from my code, I added the link that was on its Github to the index.html. Next, I created a simple user input and button so that text could be entered and then confirmed. 
 
 By continuing to follow the workshop video, I was able to create this code:
 
@@ -76,7 +76,7 @@ poem.push(userLine);
   }
 ```
 
-This taught me how to use the rhyme and tokenize funtions. Rhyme finds words in the library that rhymes with one word from the user's input and selects one at random, and then replaces that word in the line it gives back. However, this can't be done without tokenizing the words first, to seperate them from a whole sentence into individual words to then be selected at random. To select them at random, an array needed to be made in order to create the options that can be selected. In my poem, I decided to make it so that the user's input would be visible as well as the updated line, so that the rhyme is evident and it behaves more like a stanza in a poem.
+This taught me how to use the rhyme and tokenize funtions. Rhyme finds words in the library that rhyme with a given word, which I select at random from the user's input and then replace with the rhymed word. However, this can't be done without tokenizing the words first, to seperate them from a whole sentence into individual words to then be selected at random. To select them at random, an array needed to be made in order to create the options that can be selected. In my poem, I decided to make it so that the user's input would be visible as well as the updated line, so that the rhyme is evident and it behaves more like a stanza in a poem.
 
 After learning how to use these functions, I was ready to try some more.
 
@@ -142,6 +142,8 @@ This code allowed me to make a new line for each of the RiTa functions. If Rita 
   button.position(userInput.x + userInput.width + 10, userInput.y);
   button.mousePressed(nonsenseLine);
 ```
+
+I learned that CSS is a set of instructions for customizing the appearance of objects like buttons and input boxes, and works a bit like the `.position` instruction.
 
 I was very happy with the colours!
 
